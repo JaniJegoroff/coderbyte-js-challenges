@@ -2,7 +2,7 @@ const swapCase = require('../src/swap-case');
 const { expect } = require('chai');
 
 describe('Swap Case', () => {
-  it('should swap the case of each character', async () => {
+  it('should swap the case of each character', () => {
     expect(swapCase('')).to.equal('');
     expect(swapCase('aaa')).to.equal('AAA');
     expect(swapCase('BBB')).to.equal('bbb');
