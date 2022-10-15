@@ -1,0 +1,14 @@
+{
+    "author": "Jani Jegoroff",
+    "name": "test",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Coderbyte Javascript challenges",
+    "devDependencies": {
+        "chai": "^4.3.6",
+        "mocha": "^10.0.0"
+    },
+    "scripts": {
+        "test": "mocha test/*.js"
+    }
+}
