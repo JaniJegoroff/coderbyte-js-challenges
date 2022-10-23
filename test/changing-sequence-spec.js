@@ -11,5 +11,6 @@ describe('Changing Sequence', () => {
     expect(changingSequence([0, 0, 1, 2])).to.equal(-1);
     expect(changingSequence([2, 1, 0, 0])).to.equal(-1);
     expect(changingSequence([0, 2, 2, 0])).to.equal(2);
+    expect(changingSequence([2, 2, 3, 2, 2])).to.equal(-1);
   });
 });
