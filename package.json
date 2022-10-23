@@ -5,6 +5,8 @@
     "private": true,
     "description": "Coderbyte Javascript challenges",
     "devDependencies": {
+        "@stryker-mutator/core": "^6.2.3",
+        "@stryker-mutator/mocha-runner": "^6.2.3",
         "chai": "^4.3.6",
         "mocha": "^10.0.0"
     },
