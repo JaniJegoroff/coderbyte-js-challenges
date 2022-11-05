@@ -11,6 +11,7 @@
         "mocha": "^10.1.0"
     },
     "scripts": {
-        "test": "mocha test/*.js"
+        "test": "mocha test/*.js",
+        "stryker": "stryker run"
     }
 }
